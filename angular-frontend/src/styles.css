@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(bootstrap/dist/css/bootstrap.min.css) layer(default);
+/* @media screen and (max-width: 600px), screen and (min-width: 1201px) {
+     .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+
+}
+} */
+
+@layer default {
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        text-align: center;
+        color: white;
+    
+    }
+}

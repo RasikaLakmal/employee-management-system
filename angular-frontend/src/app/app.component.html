@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="create-employee" routerLinkActive="active" class="nav-link">Add Employee</a>
+      </li>
+    </ul>
+    <!-- <form #searchForm="ngForm"  class="d-flex" role="search">
+      <input type="search" name="name" ngModel class="form-control me-2" placeholder="Search users" aria-label="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form> -->
+  </div>
+  
+</nav>
+<h1 class="text-center">{{title}}</h1>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+<footer class="footer">
+  <div class="container">
+    <span>All Rights Reserved</span>
+  </div>
+</footer>
